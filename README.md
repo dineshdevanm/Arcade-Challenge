@@ -29,4 +29,9 @@ Every contribution matters – by the end, you’ll have built something **playa
 Every week brings a new challenge.  
 Are you ready to test your skills, unlock achievements, and see your code in action?  
 
+**Note**
+- You may use AI tools for guidance or debugging.
+- Direct copy-paste of solutions without understanding is discouraged.
+- All PRs must include a short explanation of the logic.
+
 **Let the quest begin!** ✨
