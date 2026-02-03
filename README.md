@@ -1,6 +1,6 @@
 Welcome to **CodeQuest (Feb Challenge) – CLI Arcade** – a place where **code becomes play**, and every line you write builds toward something bigger.  
 
-Here, you’ll contribute, experiment, and see your creations come alive… **all in the terminal**.  
+Here, you’ll contribute, experiment, and see your arcade game creations come alive… **all in the terminal**.  
 
 ---
 
