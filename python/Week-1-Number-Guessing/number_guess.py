@@ -8,6 +8,7 @@ def check_guess(secret: int, guess: int) -> str:
     :param secret: the actual number to guess
     :param guess: the user's guess
     """
+    return "word"
 
 
 def calculate_score(attempts: int) -> int:
@@ -17,6 +18,8 @@ def calculate_score(attempts: int) -> int:
     :param attempts: Number of attempts made by the user
     """
 
+    return "score"
+
 
 def give_hint(secret: int, guess_history: list) -> str:
     """
@@ -25,6 +28,8 @@ def give_hint(secret: int, guess_history: list) -> str:
     :param secret: the actual number to guess
     :param guess_history: list of previous guesses
     """
+
+    return "hint"
 
     # -------- CLI PART (DO NOT MODIFY) ---------
 
