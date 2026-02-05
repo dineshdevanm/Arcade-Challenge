@@ -32,6 +32,9 @@ jobs:
           for dir in python/*; do
             if [ -d "$dir/tests" ]; then
               echo "Running tests in $dir"
-              python -m unittest discover -s "$dir/tests" -t "$dir"
+              cd "$dir"
+              python -m unittest discover -s tests
+              cd - >/dev/null
             fi
           done
+
