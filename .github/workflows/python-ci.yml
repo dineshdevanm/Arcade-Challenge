@@ -33,6 +33,8 @@ jobs:
             if [ -d "$dir/tests" ]; then
               echo "Running tests in $dir"
               cd "$dir"
+              echo "Current directory"
+              pwd
               python -m unittest discover -s tests -t .
               cd - >/dev/null
             fi
