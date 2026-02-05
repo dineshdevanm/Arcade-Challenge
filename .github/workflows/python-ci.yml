@@ -35,7 +35,7 @@ jobs:
               cd "$dir"
               echo "Current directory"
               pwd
-              python -m unittest discover -s tests -t .
+              python -m unittest tests/test_*.py
               cd - >/dev/null
             fi
           done
