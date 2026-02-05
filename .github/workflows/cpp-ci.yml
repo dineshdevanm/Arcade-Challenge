@@ -1,0 +1,28 @@
+on:
+  push:
+    branches: [main]
+    paths:
+      - "cpp/**"
+
+  pull_request:
+    branches: [main]
+    paths:
+      - "cpp/**"
+
+jobs:
+  cpp-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Build and Run All Tests
+        run: |
+          for dir in cpp/*/tests; do
+            echo "Running tests in $dir"
+            cd "$dir"
+            g++ *.cpp -o test
+            ./test
+            cd - >/dev/null
+          done
